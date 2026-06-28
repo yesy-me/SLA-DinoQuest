@@ -217,12 +217,12 @@ function l1Next(){ if(l1Index < DINOS.length - 1){ l1Index++; renderL1(); } }
 const STORY_SENTENCES = [
   { pre:'Once upon a time, six dinosaurs lived together in a green forest.', blank:null, post:'' },
   { pre:'Tyrannosaurus Rex was very big. It had sharp, big', blank:'teeth', post:'.' },
-  { pre:'Triceratops had three', blank:'horns', post:'on its face and a big frill on its head.' },
+  { pre:'Triceratops had three', blank:'horns', post:'on its face and a big bony frill on its head.' },
   { pre:'Stegosaurus had sharp', blank:'spikes', post:'on its tail and bony plates on its back.' },
   { pre:'Ankylosaurus had a hard, bumpy body and a big club on its', blank:'tail', post:'.' },
   { pre:'Brachiosaurus had a very long', blank:'neck', post:'. It was one of the biggest dinosaurs.' },
   { pre:'Parasaurolophus had a long, curved crest on its head and a', blank:'duck-like', post:'mouth.' },
-  { pre:'All six dinosaurs were special and had their own unique features.'}
+  { pre:'All six dinosaurs were special and had their own unique features.', post:''}
 ];
 const WORD_BANK_WORDS = ['horns','spikes','neck','teeth','tail','duck-like'];
 
